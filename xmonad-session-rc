@@ -16,14 +16,14 @@ setxkbmap -option "ctrl:nocaps" &
 xcompmgr -n &
 
 # Start the system tray
-tray &
+stalonetray &
 
 # Start two terminals
-gnome-terminal &
-gnome-terminal &
+urxvt &
+urxvt &
 
 # Start a browser
-google-chrome &
+opera &
 
 # Start screensaver
 gnome-screensaver &
